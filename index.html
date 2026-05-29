@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="favicon.png">
+    <meta name="apple-mobile-web-app-title" content="Loop">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wdth,wght@8..144,25..151,100..1000&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto Flex', sans-serif;
+            background-color: #F3EEFF;
+            min-height: 100vh;
+            color: #1C1B1F;
+            padding: 24px;
+        }
+
+        .page {
+            max-width: 640px;
+            margin: 0 auto;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            margin-bottom: 48px;
+        }
+
+        h1 {
+            font-size: 1.125rem;
+            font-weight: 800;
+            font-variation-settings: 'wdth' 151, 'opsz' 18;
+            color: #6750A4;
+            line-height: 1.2;
+        }
+
+        .refresh-btn {
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            padding: 0;
+            border: none;
+            background: none;
+            color: #49454F;
+            cursor: pointer;
+            border-radius: 50%;
+            transition: color 0.2s ease;
+        }
+
+        .refresh-btn:hover {
+            color: #6750A4;
+        }
+
+        .refresh-btn:active {
+            color: #1C1B1F;
+        }
+
+        .refresh-btn svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        .theme-label {
+            font-size: 0.6875rem;
+            font-weight: 600;
+            font-variation-settings: 'wdth' 100, 'opsz' 14;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #984061;
+            margin-bottom: 12px;
+            transition: opacity 0.15s ease;
+        }
+
+        .prompt-text {
+            font-size: 2.75rem;
+            font-weight: 800;
+            font-variation-settings: 'wdth' 151, 'opsz' 72;
+            line-height: 1.05;
+            color: #21005D;
+            letter-spacing: -0.02em;
+            transition: opacity 0.15s ease;
+        }
+
+        @media (min-width: 768px) {
+            body {
+                padding: 40px 48px;
+            }
+
+            .page {
+                max-width: 900px;
+                margin: 0;
+            }
+
+            h1 {
+                font-size: 1.375rem;
+            }
+
+            .prompt-text {
+                font-size: 4.5rem;
+            }
+        }
+
+        @media (min-width: 1280px) {
+            body {
+                padding: 56px 64px;
+            }
+
+            .page {
+                max-width: 1100px;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            .prompt-text {
+                font-size: 6.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <h1>Loop</h1>
+            <button class="refresh-btn" type="button" onclick="getRandomPrompt()" aria-label="Next prompt">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
+                    <path d="M3 3v5h5"/>
+                    <path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16"/>
+                    <path d="M16 16h5v5"/>
+                </svg>
+            </button>
+        </header>
+
+        <p id="themeLabel" class="theme-label">Theme</p>
+
+        <p id="promptContent" class="prompt-text">Prompt</p>
+    </div>
+
+    <script>
+        let allPrompts = [];
+
+        function loadPrompts() {
+            fetch('prompts.json')
+                .then(r => r.json())
+                .then(data => {
+                    allPrompts = data.prompts || (Array.isArray(data) ? data : []);
+                    if (allPrompts.length > 0) getRandomPrompt();
+                })
+                .catch(err => console.error('Error loading prompts:', err));
+        }
+
+        function getRandomPrompt() {
+            if (allPrompts.length === 0) return;
+
+            const randomIndex = Math.floor(Math.random() * allPrompts.length);
+            displayPrompt(allPrompts[randomIndex]);
+        }
+
+        function displayPrompt(prompt) {
+            if (!prompt) return;
+
+            const promptContent = document.getElementById('promptContent');
+            const themeLabel = document.getElementById('themeLabel');
+
+            promptContent.style.opacity = '0';
+            themeLabel.style.opacity = '0';
+
+            setTimeout(() => {
+                promptContent.textContent = prompt.prompt;
+                themeLabel.textContent = prompt.theme.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+                promptContent.style.opacity = '';
+                themeLabel.style.opacity = '';
+            }, 150);
+        }
+
+        loadPrompts();
+    </script>
+</body>
+</html>

@@ -1,0 +1,1829 @@
+{
+  "prompts": [
+    {
+      "id": 1,
+      "theme": "attention_focus",
+      "prompt": "When you're really focused on something you enjoy, does time feel completely different to you than when you're trying to do something that doesn't interest you? Can you give me an example of each?"
+    },
+    {
+      "id": 2,
+      "theme": "attention_focus",
+      "prompt": "What activities or projects do you lose track of time on? When you snap out of that zone, how do you feel?"
+    },
+    {
+      "id": 3,
+      "theme": "attention_focus",
+      "prompt": "Is there a difference between what you know you should focus on and what you can actually focus on? How does that gap make you feel?"
+    },
+    {
+      "id": 4,
+      "theme": "attention_focus",
+      "prompt": "When you're trying to listen to someone and your mind wanders, what's usually happening? Are you bored, or is something else pulling your attention?"
+    },
+    {
+      "id": 5,
+      "theme": "attention_focus",
+      "prompt": "Do you notice yourself getting distracted by small things in your environment? What kind of distractions pull you away most?"
+    },
+    {
+      "id": 6,
+      "theme": "attention_focus",
+      "prompt": "How do you know when you're starting to lose focus on something? What's the feeling like?"
+    },
+    {
+      "id": 7,
+      "theme": "attention_focus",
+      "prompt": "When you have to do something boring or repetitive, what goes through your mind? How do you try to push through?"
+    },
+    {
+      "id": 8,
+      "theme": "attention_focus",
+      "prompt": "Are there certain topics or subjects you can focus on for hours? What's different about those compared to things you struggle to focus on?"
+    },
+    {
+      "id": 9,
+      "theme": "attention_focus",
+      "prompt": "Does it feel easier to focus on something if you're interested in it versus if someone else needs you to do it?"
+    },
+    {
+      "id": 10,
+      "theme": "attention_focus",
+      "prompt": "When you're supposed to be doing one thing but your mind is on another, does that frustrate you or just feel like the default?"
+    },
+    {
+      "id": 11,
+      "theme": "attention_focus",
+      "prompt": "Have you noticed your focus getting worse over time, or has it always been this way?"
+    },
+    {
+      "id": 12,
+      "theme": "attention_focus",
+      "prompt": "What would make it easier for you to focus? Quiet? Noise? Movement?"
+    },
+    {
+      "id": 13,
+      "theme": "attention_focus",
+      "prompt": "Do you ever start something and immediately feel like your brain is rejecting it? What does that feel like?"
+    },
+    {
+      "id": 14,
+      "theme": "attention_focus",
+      "prompt": "When you're in a conversation and someone else starts talking, do you find yourself jumping ahead to what you want to say?"
+    },
+    {
+      "id": 15,
+      "theme": "attention_focus",
+      "prompt": "How do you feel when someone asks you to focus on something you don't want to do? Is it just uncomfortable or actually painful?"
+    },
+    {
+      "id": 16,
+      "theme": "attention_focus",
+      "prompt": "Do you get more focused when there's pressure or a deadline, or does that make it worse?"
+    },
+    {
+      "id": 17,
+      "theme": "attention_focus",
+      "prompt": "What's the difference between choosing not to focus on something and not being able to focus on it?"
+    },
+    {
+      "id": 18,
+      "theme": "attention_focus",
+      "prompt": "When you have multiple things you need to do, how do you decide what to focus on first?"
+    },
+    {
+      "id": 19,
+      "theme": "attention_focus",
+      "prompt": "Do you ever read something and realize you have no idea what you just read? How often does that happen?"
+    },
+    {
+      "id": 20,
+      "theme": "attention_focus",
+      "prompt": "Is there a difference in how you focus depending on your mood or energy level?"
+    },
+    {
+      "id": 21,
+      "theme": "attention_focus",
+      "prompt": "When you're doing something creative, does your focus feel different than when you're doing something administrative?"
+    },
+    {
+      "id": 22,
+      "theme": "attention_focus",
+      "prompt": "Have people ever told you that you're not listening when you actually are? How does that feel?"
+    },
+    {
+      "id": 23,
+      "theme": "attention_focus",
+      "prompt": "What happens when you try to force yourself to focus on something you're not interested in?"
+    },
+    {
+      "id": 24,
+      "theme": "attention_focus",
+      "prompt": "Do you feel like your attention is fragmented, or does it just lock onto certain things and ignore everything else?"
+    },
+    {
+      "id": 25,
+      "theme": "attention_focus",
+      "prompt": "When you're at your best focus-wise, what's usually true about your environment or situation?"
+    },
+    {
+      "id": 26,
+      "theme": "attention_focus",
+      "prompt": "Do you notice yourself getting distracted more on certain types of tasks than others?"
+    },
+    {
+      "id": 27,
+      "theme": "attention_focus",
+      "prompt": "How does it feel when you can feel yourself losing focus in real time?"
+    },
+    {
+      "id": 28,
+      "theme": "attention_focus",
+      "prompt": "Are there things that help you stay focused that might seem weird or unconventional?"
+    },
+    {
+      "id": 29,
+      "theme": "attention_focus",
+      "prompt": "When you were younger, was your focus different? Do you remember noticing attention issues in school?"
+    },
+    {
+      "id": 30,
+      "theme": "attention_focus",
+      "prompt": "If you could design the perfect focusing conditions, what would that look like?"
+    },
+    {
+      "id": 31,
+      "theme": "attention_focus",
+      "prompt": "Do you find it easier to focus when you're alone versus around other people?"
+    },
+    {
+      "id": 32,
+      "theme": "attention_focus",
+      "prompt": "What's the longest you can genuinely focus on something without your mind wandering?"
+    },
+    {
+      "id": 33,
+      "theme": "attention_focus",
+      "prompt": "When you lose focus, do you feel like you're choosing something else or like you can't help it?"
+    },
+    {
+      "id": 34,
+      "theme": "attention_focus",
+      "prompt": "How does your focus shift throughout the day? Are there times when it's better or worse?"
+    },
+    {
+      "id": 35,
+      "theme": "attention_focus",
+      "prompt": "Do certain activities or hobbies feel like exceptions where focus isn't a problem?"
+    },
+    {
+      "id": 36,
+      "theme": "executive_function",
+      "prompt": "What time of day or what conditions make it easiest for you to actually get things done? And when is it hardest?"
+    },
+    {
+      "id": 37,
+      "theme": "executive_function",
+      "prompt": "How do you feel about starting a new task? Is it exciting, overwhelming, or just hard to begin?"
+    },
+    {
+      "id": 38,
+      "theme": "executive_function",
+      "prompt": "When you look at a big project, what's your first instinct? Do you break it down or feel paralyzed?"
+    },
+    {
+      "id": 39,
+      "theme": "executive_function",
+      "prompt": "What's harder for you: starting a task, staying on it, or finishing it?"
+    },
+    {
+      "id": 40,
+      "theme": "executive_function",
+      "prompt": "Do you ever start multiple things and jump between them? Why does that feel necessary?"
+    },
+    {
+      "id": 41,
+      "theme": "executive_function",
+      "prompt": "When you finally get something done, how do you feel? Relief, exhaustion, or something else?"
+    },
+    {
+      "id": 42,
+      "theme": "executive_function",
+      "prompt": "Is there a difference between tasks you want to do and tasks you feel obligated to do?"
+    },
+    {
+      "id": 43,
+      "theme": "executive_function",
+      "prompt": "How do you organize your tasks? Lists, mental tracking, or something else?"
+    },
+    {
+      "id": 44,
+      "theme": "executive_function",
+      "prompt": "When you make a to-do list, do you actually follow it or does it just stress you out?"
+    },
+    {
+      "id": 45,
+      "theme": "executive_function",
+      "prompt": "What's your relationship with deadlines? Do they help you get things done or make things worse?"
+    },
+    {
+      "id": 46,
+      "theme": "executive_function",
+      "prompt": "Do you find it easier to complete tasks when someone else is counting on you?"
+    },
+    {
+      "id": 47,
+      "theme": "executive_function",
+      "prompt": "How many projects do you usually have going at the same time?"
+    },
+    {
+      "id": 48,
+      "theme": "executive_function",
+      "prompt": "When you abandon a project halfway through, what's usually the reason?"
+    },
+    {
+      "id": 49,
+      "theme": "executive_function",
+      "prompt": "Do you ever get a burst of energy and suddenly do five things at once?"
+    },
+    {
+      "id": 50,
+      "theme": "executive_function",
+      "prompt": "What's the longest you've kept a good habit or routine going?"
+    },
+    {
+      "id": 51,
+      "theme": "executive_function",
+      "prompt": "Do you feel like you work best under pressure, or is that a myth you tell yourself?"
+    },
+    {
+      "id": 52,
+      "theme": "executive_function",
+      "prompt": "How do you feel when you're in the middle of a task and someone interrupts you?"
+    },
+    {
+      "id": 53,
+      "theme": "executive_function",
+      "prompt": "When you finally finish something you've been putting off, does it feel worth the struggle?"
+    },
+    {
+      "id": 54,
+      "theme": "executive_function",
+      "prompt": "Do you have a system for remembering what you're supposed to be doing, or do you just hope?"
+    },
+    {
+      "id": 55,
+      "theme": "executive_function",
+      "prompt": "What's the hardest part about managing your own time and tasks?"
+    },
+    {
+      "id": 56,
+      "theme": "executive_function",
+      "prompt": "How do you decide which task to do first when you have multiple options?"
+    },
+    {
+      "id": 57,
+      "theme": "executive_function",
+      "prompt": "Do you ever feel like you're busier than you actually are? Or the opposite?"
+    },
+    {
+      "id": 58,
+      "theme": "executive_function",
+      "prompt": "When you're supposed to be doing something, how aware are you of time passing?"
+    },
+    {
+      "id": 59,
+      "theme": "executive_function",
+      "prompt": "What helps you actually follow through on something you said you'd do?"
+    },
+    {
+      "id": 60,
+      "theme": "executive_function",
+      "prompt": "Do you feel more energized by completing tasks or exhausted by them?"
+    },
+    {
+      "id": 61,
+      "theme": "executive_function",
+      "prompt": "How do you approach cleaning or organizing your space? Is it something you can sustain?"
+    },
+    {
+      "id": 62,
+      "theme": "executive_function",
+      "prompt": "When you have downtime, does relaxing feel like a task or a relief?"
+    },
+    {
+      "id": 63,
+      "theme": "executive_function",
+      "prompt": "Do you ever feel like you're not actually doing anything even when you're busy?"
+    },
+    {
+      "id": 64,
+      "theme": "executive_function",
+      "prompt": "What's your strategy when you're really behind on something?"
+    },
+    {
+      "id": 65,
+      "theme": "executive_function",
+      "prompt": "Do you procrastinate more on things that bore you or things that stress you?"
+    },
+    {
+      "id": 66,
+      "theme": "time_perception",
+      "prompt": "Do you experience time differently than other people seem to? How?"
+    },
+    {
+      "id": 67,
+      "theme": "time_perception",
+      "prompt": "When you're doing something enjoyable, does time disappear? How long have you been able to lose track of time?"
+    },
+    {
+      "id": 68,
+      "theme": "time_perception",
+      "prompt": "Do you often think something will only take 15 minutes and it ends up being an hour?"
+    },
+    {
+      "id": 69,
+      "theme": "time_perception",
+      "prompt": "When someone says 'see you in an hour,' what does that mean in your mind?"
+    },
+    {
+      "id": 70,
+      "theme": "time_perception",
+      "prompt": "How often do you think you'll get something done and then run out of time?"
+    },
+    {
+      "id": 71,
+      "theme": "time_perception",
+      "prompt": "Do deadlines feel distant and unreal until they're suddenly here?"
+    },
+    {
+      "id": 72,
+      "theme": "time_perception",
+      "prompt": "Is being late something that happens to you, or is it a choice you make?"
+    },
+    {
+      "id": 73,
+      "theme": "time_perception",
+      "prompt": "When you're waiting for something, does time feel slower or faster?"
+    },
+    {
+      "id": 74,
+      "theme": "time_perception",
+      "prompt": "Do you ever check the time and feel shocked at how much time has passed?"
+    },
+    {
+      "id": 75,
+      "theme": "time_perception",
+      "prompt": "How do you estimate how long something will take you? Are you usually right?"
+    },
+    {
+      "id": 76,
+      "theme": "time_perception",
+      "prompt": "Do you feel like time moves differently depending on what you're doing?"
+    },
+    {
+      "id": 77,
+      "theme": "time_perception",
+      "prompt": "When you're procrastinating on something, what's your sense of urgency like?"
+    },
+    {
+      "id": 78,
+      "theme": "time_perception",
+      "prompt": "Do you do your best work when a deadline is right on top of you?"
+    },
+    {
+      "id": 79,
+      "theme": "time_perception",
+      "prompt": "How do you feel about time management in general? Is it something you think about?"
+    },
+    {
+      "id": 80,
+      "theme": "time_perception",
+      "prompt": "When you say 'I'll do it later,' how often does later actually happen?"
+    },
+    {
+      "id": 81,
+      "theme": "time_perception",
+      "prompt": "Do you feel like there's never enough time, even when you have plenty?"
+    },
+    {
+      "id": 82,
+      "theme": "time_perception",
+      "prompt": "How aware are you of what time it is during the day?"
+    },
+    {
+      "id": 83,
+      "theme": "time_perception",
+      "prompt": "When you're hyperfocused on something, what finally pulls you out of it?"
+    },
+    {
+      "id": 84,
+      "theme": "time_perception",
+      "prompt": "Do you ever feel like time is slipping away from you?"
+    },
+    {
+      "id": 85,
+      "theme": "time_perception",
+      "prompt": "How do you feel when someone asks you what time you'll be done with something?"
+    },
+    {
+      "id": 86,
+      "theme": "time_perception",
+      "prompt": "When you set a reminder for something, how often do you actually notice it?"
+    },
+    {
+      "id": 87,
+      "theme": "time_perception",
+      "prompt": "Do you keep track of what day it is, or does it blur together?"
+    },
+    {
+      "id": 88,
+      "theme": "time_perception",
+      "prompt": "When you have a schedule, does following it feel natural or like fighting against yourself?"
+    },
+    {
+      "id": 89,
+      "theme": "time_perception",
+      "prompt": "Do you feel like hours disappear or like every minute drags?"
+    },
+    {
+      "id": 90,
+      "theme": "time_perception",
+      "prompt": "How far ahead do you usually plan things? Can you imagine next month easily?"
+    },
+    {
+      "id": 91,
+      "theme": "emotional_regulation",
+      "prompt": "When you get frustrated with people close to you, what's actually happening for you in that moment? Is it about their behavior, or something about your own capacity?"
+    },
+    {
+      "id": 92,
+      "theme": "emotional_regulation",
+      "prompt": "Do you ever feel emotions more intensely than you think other people do?"
+    },
+    {
+      "id": 93,
+      "theme": "emotional_regulation",
+      "prompt": "How quickly can your mood shift? Are you able to predict when it's about to happen?"
+    },
+    {
+      "id": 94,
+      "theme": "emotional_regulation",
+      "prompt": "What's harder for you: managing your emotions or understanding why you're feeling them?"
+    },
+    {
+      "id": 95,
+      "theme": "emotional_regulation",
+      "prompt": "When you're overwhelmed, what helps you calm down? What makes it worse?"
+    },
+    {
+      "id": 96,
+      "theme": "emotional_regulation",
+      "prompt": "Do you ever feel like your emotions are disproportionate to the situation?"
+    },
+    {
+      "id": 97,
+      "theme": "emotional_regulation",
+      "prompt": "Is there a difference between how you feel internally and what you show on the outside?"
+    },
+    {
+      "id": 98,
+      "theme": "emotional_regulation",
+      "prompt": "When someone frustrates you, can you usually explain why, or does it feel immediate?"
+    },
+    {
+      "id": 99,
+      "theme": "emotional_regulation",
+      "prompt": "Do you ever feel like your emotions come and go quickly, or do they tend to stick around?"
+    },
+    {
+      "id": 100,
+      "theme": "emotional_regulation",
+      "prompt": "How do you handle it when you're upset? Do you need space or do you want to talk it out?"
+    },
+    {
+      "id": 101,
+      "theme": "emotional_regulation",
+      "prompt": "When you're frustrated with me, what would actually help in that moment?"
+    },
+    {
+      "id": 102,
+      "theme": "emotional_regulation",
+      "prompt": "Do certain situations or comments trigger bigger reactions than they probably should?"
+    },
+    {
+      "id": 103,
+      "theme": "emotional_regulation",
+      "prompt": "How aware are you of your own emotional state throughout the day?"
+    },
+    {
+      "id": 104,
+      "theme": "emotional_regulation",
+      "prompt": "Do you ever say things in frustration that you regret after you've calmed down?"
+    },
+    {
+      "id": 105,
+      "theme": "emotional_regulation",
+      "prompt": "What does frustration feel like in your body? Where do you notice it?"
+    },
+    {
+      "id": 106,
+      "theme": "emotional_regulation",
+      "prompt": "When you're in a bad mood, is that about what's happening around you or something internal?"
+    },
+    {
+      "id": 107,
+      "theme": "emotional_regulation",
+      "prompt": "How do you usually cope when you're feeling really overwhelmed?"
+    },
+    {
+      "id": 108,
+      "theme": "emotional_regulation",
+      "prompt": "Do you find it easy or hard to talk about your feelings?"
+    },
+    {
+      "id": 109,
+      "theme": "emotional_regulation",
+      "prompt": "When you feel frustrated, is it usually with other people or with yourself?"
+    },
+    {
+      "id": 110,
+      "theme": "emotional_regulation",
+      "prompt": "Do you ever feel like your emotions are in the driver's seat and logic takes a back seat?"
+    },
+    {
+      "id": 111,
+      "theme": "emotional_regulation",
+      "prompt": "What time of day are you usually in the best mood?"
+    },
+    {
+      "id": 112,
+      "theme": "emotional_regulation",
+      "prompt": "How do you feel about your emotional reactions? Do they make sense to you?"
+    },
+    {
+      "id": 113,
+      "theme": "emotional_regulation",
+      "prompt": "When you're calm versus when you're frustrated, do you feel like a different person?"
+    },
+    {
+      "id": 114,
+      "theme": "emotional_regulation",
+      "prompt": "Do you think your ADHD makes your emotions harder to manage, or is that separate?"
+    },
+    {
+      "id": 115,
+      "theme": "emotional_regulation",
+      "prompt": "What would help you feel more in control of your emotions?"
+    },
+    {
+      "id": 116,
+      "theme": "emotional_regulation",
+      "prompt": "Do you feel more emotional when you're tired, stressed, or overwhelmed?"
+    },
+    {
+      "id": 117,
+      "theme": "emotional_regulation",
+      "prompt": "When you calm down after being upset, do you usually want to talk about what happened?"
+    },
+    {
+      "id": 118,
+      "theme": "emotional_regulation",
+      "prompt": "How long do you usually need before you're ready to move on from something that upset you?"
+    },
+    {
+      "id": 119,
+      "theme": "emotional_regulation",
+      "prompt": "Do you ever feel guilty about how you reacted to something after the fact?"
+    },
+    {
+      "id": 120,
+      "theme": "emotional_regulation",
+      "prompt": "What would it feel like if you could manage your emotions more easily?"
+    },
+    {
+      "id": 121,
+      "theme": "support_help",
+      "prompt": "When you're struggling to start a task or stay on track with something, is there something I do or don't do that actually makes it easier? What would genuinely help?"
+    },
+    {
+      "id": 122,
+      "theme": "support_help",
+      "prompt": "Do you prefer reminders from me about things, or does that feel nagging?"
+    },
+    {
+      "id": 123,
+      "theme": "support_help",
+      "prompt": "When you're overwhelmed, would you rather someone help solve the problem or just listen?"
+    },
+    {
+      "id": 124,
+      "theme": "support_help",
+      "prompt": "Is there something someone could stop doing that would actually help?"
+    },
+    {
+      "id": 125,
+      "theme": "support_help",
+      "prompt": "How can you work with others on things without it turning into conflict?"
+    },
+    {
+      "id": 126,
+      "theme": "support_help",
+      "prompt": "When someone tries to help, does it ever feel like they're criticizing instead?"
+    },
+    {
+      "id": 127,
+      "theme": "support_help",
+      "prompt": "What would a good partnership look like from your perspective?"
+    },
+    {
+      "id": 128,
+      "theme": "support_help",
+      "prompt": "Do you ever feel like people don't understand what you're dealing with?"
+    },
+    {
+      "id": 129,
+      "theme": "support_help",
+      "prompt": "How can someone support you without making you feel babied?"
+    },
+    {
+      "id": 130,
+      "theme": "support_help",
+      "prompt": "When you're struggling, do you want me to notice and ask, or wait for you to tell me?"
+    },
+    {
+      "id": 131,
+      "theme": "support_help",
+      "prompt": "Is there something specific you need from me that I'm not giving?"
+    },
+    {
+      "id": 132,
+      "theme": "support_help",
+      "prompt": "How do you want me to respond when you're being hard on yourself about ADHD stuff?"
+    },
+    {
+      "id": 133,
+      "theme": "support_help",
+      "prompt": "Do you feel like you have to hide parts of your ADHD from me, or can you be honest?"
+    },
+    {
+      "id": 134,
+      "theme": "support_help",
+      "prompt": "What would make you feel more supported in your relationships?"
+    },
+    {
+      "id": 135,
+      "theme": "support_help",
+      "prompt": "When someone close to you is frustrated, does that make your ADHD worse?"
+    },
+    {
+      "id": 136,
+      "theme": "support_help",
+      "prompt": "How can someone show you that they get it, even if they don't experience ADHD themselves?"
+    },
+    {
+      "id": 137,
+      "theme": "support_help",
+      "prompt": "Do you feel like your conflicts are about ADHD stuff or about the relationship itself?"
+    },
+    {
+      "id": 138,
+      "theme": "support_help",
+      "prompt": "What's one thing you wish I understood about your ADHD?"
+    },
+    {
+      "id": 139,
+      "theme": "support_help",
+      "prompt": "When you mess up because of ADHD, how do you want me to react?"
+    },
+    {
+      "id": 140,
+      "theme": "support_help",
+      "prompt": "Is there a way for us to handle household tasks that feels less stressful to you?"
+    },
+    {
+      "id": 141,
+      "theme": "support_help",
+      "prompt": "Do you feel like you can ask me for help when you need it?"
+    },
+    {
+      "id": 142,
+      "theme": "support_help",
+      "prompt": "What does unconditional support look like to you?"
+    },
+    {
+      "id": 143,
+      "theme": "support_help",
+      "prompt": "How can we make decisions together about managing household and family stuff?"
+    },
+    {
+      "id": 144,
+      "theme": "support_help",
+      "prompt": "When you have a good day ADHD-wise, what was different?"
+    },
+    {
+      "id": 145,
+      "theme": "support_help",
+      "prompt": "Do you want me to have patience with you, or is that something you need to develop for yourself?"
+    },
+    {
+      "id": 146,
+      "theme": "support_help",
+      "prompt": "How can someone show you that your ADHD doesn't change how they feel about you?"
+    },
+    {
+      "id": 147,
+      "theme": "support_help",
+      "prompt": "Is there something you used to do that your ADHD has made harder?"
+    },
+    {
+      "id": 148,
+      "theme": "support_help",
+      "prompt": "What's one area where someone has really had your back?"
+    },
+    {
+      "id": 149,
+      "theme": "support_help",
+      "prompt": "When you're going through a hard ADHD day, what do you need from me?"
+    },
+    {
+      "id": 150,
+      "theme": "support_help",
+      "prompt": "How can we build a life that actually works for both of us?"
+    },
+    {
+      "id": 151,
+      "theme": "strengths",
+      "prompt": "What do you think are your actual strengths? Things you're genuinely good at?"
+    },
+    {
+      "id": 152,
+      "theme": "strengths",
+      "prompt": "Do you see any connection between your strengths and how your brain works?"
+    },
+    {
+      "id": 153,
+      "theme": "strengths",
+      "prompt": "When you're doing something creative, what's that like for you?"
+    },
+    {
+      "id": 154,
+      "theme": "strengths",
+      "prompt": "Are there things you're surprisingly good at that don't fit the ADHD narrative?"
+    },
+    {
+      "id": 155,
+      "theme": "strengths",
+      "prompt": "What drew you to the creative work you love most? Was it something you chose or something that chose you?"
+    },
+    {
+      "id": 156,
+      "theme": "strengths",
+      "prompt": "Do people ever tell you that you're talented at something? How do you respond?"
+    },
+    {
+      "id": 157,
+      "theme": "strengths",
+      "prompt": "What's something you've accomplished that you're proud of?"
+    },
+    {
+      "id": 158,
+      "theme": "strengths",
+      "prompt": "When you're hyperfocused on something interesting, what's that experience like?"
+    },
+    {
+      "id": 159,
+      "theme": "strengths",
+      "prompt": "Do you notice things other people miss? What kind of things?"
+    },
+    {
+      "id": 160,
+      "theme": "strengths",
+      "prompt": "Are you good at thinking on your feet or improvising?"
+    },
+    {
+      "id": 161,
+      "theme": "strengths",
+      "prompt": "What do people usually come to you for help with?"
+    },
+    {
+      "id": 162,
+      "theme": "strengths",
+      "prompt": "If you could do anything without ADHD getting in the way, what would it be?"
+    },
+    {
+      "id": 163,
+      "theme": "strengths",
+      "prompt": "What's the most creative solution you've ever come up with for a problem?"
+    },
+    {
+      "id": 164,
+      "theme": "strengths",
+      "prompt": "Do you feel more confident in certain areas of your life than others?"
+    },
+    {
+      "id": 165,
+      "theme": "strengths",
+      "prompt": "What's something that comes easily to you that you know others struggle with?"
+    },
+    {
+      "id": 166,
+      "theme": "strengths",
+      "prompt": "Have you ever been told you're resilient? Why do you think that is?"
+    },
+    {
+      "id": 167,
+      "theme": "strengths",
+      "prompt": "What part of your personality do you like the most?"
+    },
+    {
+      "id": 168,
+      "theme": "strengths",
+      "prompt": "Are you able to empathize with people quickly, or does that take time?"
+    },
+    {
+      "id": 169,
+      "theme": "strengths",
+      "prompt": "Do you have a good sense of humor? Is that connected to your ADHD?"
+    },
+    {
+      "id": 170,
+      "theme": "strengths",
+      "prompt": "When you're passionate about something, how does that show up?"
+    },
+    {
+      "id": 171,
+      "theme": "strengths",
+      "prompt": "What's something you've learned about yourself through your ADHD journey?"
+    },
+    {
+      "id": 172,
+      "theme": "strengths",
+      "prompt": "Do you feel like you've had to develop strengths because of your ADHD?"
+    },
+    {
+      "id": 173,
+      "theme": "strengths",
+      "prompt": "What's a skill you have that you don't give yourself enough credit for?"
+    },
+    {
+      "id": 174,
+      "theme": "strengths",
+      "prompt": "If you had to describe yourself to someone, what would you say?"
+    },
+    {
+      "id": 175,
+      "theme": "strengths",
+      "prompt": "What would you want someone close to you to know about your strengths?"
+    },
+    {
+      "id": 176,
+      "theme": "perimenopause",
+      "prompt": "Have your symptoms felt like they've gotten worse recently? What do you think is driving that?"
+    },
+    {
+      "id": 177,
+      "theme": "perimenopause",
+      "prompt": "Have you noticed specific times in your cycle when your ADHD is better or worse?"
+    },
+    {
+      "id": 178,
+      "theme": "perimenopause",
+      "prompt": "How has your sleep changed with perimenopause? Does that make everything harder?"
+    },
+    {
+      "id": 179,
+      "theme": "perimenopause",
+      "prompt": "Do you feel like hormones are making your executive function worse, or is it just more noticeable now?"
+    },
+    {
+      "id": 180,
+      "theme": "perimenopause",
+      "prompt": "Has anything actually gotten easier, or is it mostly harder now?"
+    },
+    {
+      "id": 181,
+      "theme": "perimenopause",
+      "prompt": "When you have a really bad ADHD day, is perimenopause usually playing a role?"
+    },
+    {
+      "id": 182,
+      "theme": "perimenopause",
+      "prompt": "How much of what you're experiencing do you think is perimenopause versus just ADHD?"
+    },
+    {
+      "id": 183,
+      "theme": "perimenopause",
+      "prompt": "What's the hardest part about dealing with both ADHD and perimenopause at the same time?"
+    },
+    {
+      "id": 184,
+      "theme": "perimenopause",
+      "prompt": "Do you feel like no one told you that ADHD would get worse with hormonal changes?"
+    },
+    {
+      "id": 185,
+      "theme": "perimenopause",
+      "prompt": "How is your mood related to where you are in your cycle?"
+    },
+    {
+      "id": 186,
+      "theme": "perimenopause",
+      "prompt": "Have you noticed changes in what triggers your frustration or overwhelm?"
+    },
+    {
+      "id": 187,
+      "theme": "perimenopause",
+      "prompt": "Does your energy level shift throughout the month?"
+    },
+    {
+      "id": 188,
+      "theme": "perimenopause",
+      "prompt": "What help or support would make perimenopause + ADHD easier to manage?"
+    },
+    {
+      "id": 189,
+      "theme": "perimenopause",
+      "prompt": "Do you ever feel like your body is working against you right now?"
+    },
+    {
+      "id": 190,
+      "theme": "perimenopause",
+      "prompt": "How much do you think hormonal changes have contributed to tension in your close relationships?"
+    },
+    {
+      "id": 191,
+      "theme": "family_relationships",
+      "prompt": "Have you noticed ADHD traits in anyone close to you? What's that like for you?"
+    },
+    {
+      "id": 192,
+      "theme": "family_relationships",
+      "prompt": "Do you see yourself in someone close to you, or does their ADHD show up differently than yours?"
+    },
+    {
+      "id": 193,
+      "theme": "family_relationships",
+      "prompt": "How do you feel about the possibility that someone close to you has ADHD?"
+    },
+    {
+      "id": 194,
+      "theme": "family_relationships",
+      "prompt": "What do you want for someone close to you that you might not have had yourself?"
+    },
+    {
+      "id": 195,
+      "theme": "family_relationships",
+      "prompt": "Do you worry about how your ADHD affects your relationships with people close to you?"
+    },
+    {
+      "id": 196,
+      "theme": "family_relationships",
+      "prompt": "When you're frustrated with someone, what are you usually reacting to?"
+    },
+    {
+      "id": 197,
+      "theme": "family_relationships",
+      "prompt": "If someone close to you has ADHD, how would you want to handle their diagnosis differently than yours was handled?"
+    },
+    {
+      "id": 198,
+      "theme": "family_relationships",
+      "prompt": "What's something you've already tried to teach someone close to you about managing ADHD or their brain?"
+    },
+    {
+      "id": 199,
+      "theme": "family_relationships",
+      "prompt": "Do you ever feel guilty about potentially passing down ADHD traits to someone close to you?"
+    },
+    {
+      "id": 200,
+      "theme": "family_relationships",
+      "prompt": "How can you support your relationships with people close to you in a way that works for all of you?"
+    },
+    {
+      "id": 201,
+      "theme": "family_relationships",
+      "prompt": "What would you want to tell someone close to you about having ADHD?"
+    },
+    {
+      "id": 202,
+      "theme": "family_relationships",
+      "prompt": "Do you think understanding your own ADHD has helped you understand someone close to you better?"
+    },
+    {
+      "id": 203,
+      "theme": "family_relationships",
+      "prompt": "When someone close to you is struggling with focus or organization, how do you handle it?"
+    },
+    {
+      "id": 204,
+      "theme": "family_relationships",
+      "prompt": "Are there things you're already doing well in your relationships that help others?"
+    },
+    {
+      "id": 205,
+      "theme": "family_relationships",
+      "prompt": "If someone close to you asks you about ADHD, what would you tell them?"
+    },
+    {
+      "id": 206,
+      "theme": "family_relationships",
+      "prompt": "Do you feel like you're managing ADHD while also supporting someone close to you who may have it?"
+    },
+    {
+      "id": 207,
+      "theme": "family_relationships",
+      "prompt": "What's one way you could support someone close to you that you wish someone had done for you?"
+    },
+    {
+      "id": 208,
+      "theme": "family_relationships",
+      "prompt": "How do you balance being honest about your ADHD with not burdening someone close to you with your experience?"
+    },
+    {
+      "id": 209,
+      "theme": "family_relationships",
+      "prompt": "What do you hope someone close to you learns from watching you manage ADHD?"
+    },
+    {
+      "id": 210,
+      "theme": "family_relationships",
+      "prompt": "Do you ever worry that your frustration with someone is unfair because of your ADHD?"
+    },
+    {
+      "id": 211,
+      "theme": "family_relationships",
+      "prompt": "How can I help you manage your relationships in a way that feels manageable for you?"
+    },
+    {
+      "id": 212,
+      "theme": "family_relationships",
+      "prompt": "If you could go back and get diagnosed earlier, how would that have changed things for those close to you?"
+    },
+    {
+      "id": 213,
+      "theme": "family_relationships",
+      "prompt": "What's the hardest part of managing relationships when you have ADHD?"
+    },
+    {
+      "id": 214,
+      "theme": "family_relationships",
+      "prompt": "Do you see your strengths showing up in people close to you too?"
+    },
+    {
+      "id": 215,
+      "theme": "family_relationships",
+      "prompt": "How do you want your relationships to include conversations about ADHD?"
+    },
+    {
+      "id": 216,
+      "theme": "memory_forgetfulness",
+      "prompt": "What kind of things do you most often forget?"
+    },
+    {
+      "id": 217,
+      "theme": "memory_forgetfulness",
+      "prompt": "Is it worse with things you need to remember versus things you want to remember?"
+    },
+    {
+      "id": 218,
+      "theme": "memory_forgetfulness",
+      "prompt": "How does it feel when you realize you forgot something important?"
+    },
+    {
+      "id": 219,
+      "theme": "memory_forgetfulness",
+      "prompt": "Do you ever lose track of where you put things? How often does that happen?"
+    },
+    {
+      "id": 220,
+      "theme": "memory_forgetfulness",
+      "prompt": "When you meet someone, how easy is it to remember their name?"
+    },
+    {
+      "id": 221,
+      "theme": "memory_forgetfulness",
+      "prompt": "Do you remember conversations differently than other people do?"
+    },
+    {
+      "id": 222,
+      "theme": "memory_forgetfulness",
+      "prompt": "Is there a difference between remembering facts and remembering to do things?"
+    },
+    {
+      "id": 223,
+      "theme": "memory_forgetfulness",
+      "prompt": "How much do you rely on lists or reminders to function?"
+    },
+    {
+      "id": 224,
+      "theme": "memory_forgetfulness",
+      "prompt": "Do you forget conversations we had unless they were really recent?"
+    },
+    {
+      "id": 225,
+      "theme": "memory_forgetfulness",
+      "prompt": "Is your working memory (holding information briefly) different from your long-term memory?"
+    },
+    {
+      "id": 226,
+      "theme": "memory_forgetfulness",
+      "prompt": "When you're supposed to remember to do something, what's your strategy?"
+    },
+    {
+      "id": 227,
+      "theme": "memory_forgetfulness",
+      "prompt": "Do you ever forget why you walked into a room?"
+    },
+    {
+      "id": 228,
+      "theme": "memory_forgetfulness",
+      "prompt": "How does forgetting things affect your confidence?"
+    },
+    {
+      "id": 229,
+      "theme": "memory_forgetfulness",
+      "prompt": "Is there anything you never forget, no matter what?"
+    },
+    {
+      "id": 230,
+      "theme": "memory_forgetfulness",
+      "prompt": "Do you feel like your memory is getting worse, or has it always been this way?"
+    },
+    {
+      "id": 231,
+      "theme": "memory_forgetfulness",
+      "prompt": "When someone tells you something important, how sure are you that you'll remember it?"
+    },
+    {
+      "id": 232,
+      "theme": "memory_forgetfulness",
+      "prompt": "Do you have better memory for things that are emotional or memorable?"
+    },
+    {
+      "id": 233,
+      "theme": "memory_forgetfulness",
+      "prompt": "How does it feel when I remind you about something you forgot?"
+    },
+    {
+      "id": 234,
+      "theme": "memory_forgetfulness",
+      "prompt": "Are you better at remembering general concepts or specific details?"
+    },
+    {
+      "id": 235,
+      "theme": "memory_forgetfulness",
+      "prompt": "Do you ever feel bad about forgetting things that matter?"
+    },
+    {
+      "id": 236,
+      "theme": "memory_forgetfulness",
+      "prompt": "What's the most memorable thing you've ever forgotten?"
+    },
+    {
+      "id": 237,
+      "theme": "memory_forgetfulness",
+      "prompt": "How much does forgetfulness impact your daily life?"
+    },
+    {
+      "id": 238,
+      "theme": "memory_forgetfulness",
+      "prompt": "Do you remember things better if you write them down?"
+    },
+    {
+      "id": 239,
+      "theme": "memory_forgetfulness",
+      "prompt": "Is there a difference between forgetting something and just not paying attention in the first place?"
+    },
+    {
+      "id": 240,
+      "theme": "memory_forgetfulness",
+      "prompt": "How do you feel about your memory overall?"
+    },
+    {
+      "id": 241,
+      "theme": "sleep_insomnia",
+      "prompt": "Have you always struggled with sleep, or did it get worse over time? What's that been like?"
+    },
+    {
+      "id": 242,
+      "theme": "sleep_insomnia",
+      "prompt": "When you can't fall asleep, what's usually going on? Racing thoughts or something else?"
+    },
+    {
+      "id": 243,
+      "theme": "sleep_insomnia",
+      "prompt": "How much does poor sleep make your ADHD worse the next day?"
+    },
+    {
+      "id": 244,
+      "theme": "sleep_insomnia",
+      "prompt": "Do you feel tired during the day even when you get enough sleep?"
+    },
+    {
+      "id": 245,
+      "theme": "sleep_insomnia",
+      "prompt": "What helps you fall asleep, if anything actually works?"
+    },
+    {
+      "id": 246,
+      "theme": "sleep_insomnia",
+      "prompt": "Do you find yourself awake at night thinking about things you need to do?"
+    },
+    {
+      "id": 247,
+      "theme": "sleep_insomnia",
+      "prompt": "How does your sleep affect your mood and patience?"
+    },
+    {
+      "id": 248,
+      "theme": "sleep_insomnia",
+      "prompt": "When you finally get good sleep, what's different?"
+    },
+    {
+      "id": 249,
+      "theme": "sleep_insomnia",
+      "prompt": "Do you think your brain just doesn't shut off at night?"
+    },
+    {
+      "id": 250,
+      "theme": "sleep_insomnia",
+      "prompt": "How much does lack of sleep impact your ability to manage executive function?"
+    },
+    {
+      "id": 251,
+      "theme": "sleep_insomnia",
+      "prompt": "Do you ever feel like you're running on fumes?"
+    },
+    {
+      "id": 252,
+      "theme": "sleep_insomnia",
+      "prompt": "Is there a time of night when you finally feel tired?"
+    },
+    {
+      "id": 253,
+      "theme": "sleep_insomnia",
+      "prompt": "How has medication affected your sleep, if at all?"
+    },
+    {
+      "id": 254,
+      "theme": "sleep_insomnia",
+      "prompt": "Do you feel like your insomnia has gotten better or worse over time?"
+    },
+    {
+      "id": 255,
+      "theme": "sleep_insomnia",
+      "prompt": "What does a really good night of sleep look like for you?"
+    },
+    {
+      "id": 256,
+      "theme": "sleep_insomnia",
+      "prompt": "Do you dread bedtime, or does it just not work?"
+    },
+    {
+      "id": 257,
+      "theme": "sleep_insomnia",
+      "prompt": "How much control do you feel you have over your sleep?"
+    },
+    {
+      "id": 258,
+      "theme": "sleep_insomnia",
+      "prompt": "When you're lying in bed awake, what goes through your mind?"
+    },
+    {
+      "id": 259,
+      "theme": "sleep_insomnia",
+      "prompt": "Do you think your ADHD medication affects your sleep?"
+    },
+    {
+      "id": 260,
+      "theme": "sleep_insomnia",
+      "prompt": "What would having good sleep feel like for you?"
+    },
+    {
+      "id": 261,
+      "theme": "relationship_dynamics",
+      "prompt": "Do you feel like your relationships have been impacted by your ADHD symptoms?"
+    },
+    {
+      "id": 262,
+      "theme": "relationship_dynamics",
+      "prompt": "When you cut people off in conversation, are you aware of it happening?"
+    },
+    {
+      "id": 263,
+      "theme": "relationship_dynamics",
+      "prompt": "Do you ever feel like people don't understand your ADHD experience?"
+    },
+    {
+      "id": 264,
+      "theme": "relationship_dynamics",
+      "prompt": "What does a conflict between us usually look like?"
+    },
+    {
+      "id": 265,
+      "theme": "relationship_dynamics",
+      "prompt": "Do you feel like my frustration makes your ADHD harder to manage?"
+    },
+    {
+      "id": 266,
+      "theme": "relationship_dynamics",
+      "prompt": "When you shut down or withdraw, what's usually behind that?"
+    },
+    {
+      "id": 267,
+      "theme": "relationship_dynamics",
+      "prompt": "How do you want us to handle disagreements about ADHD-related stuff?"
+    },
+    {
+      "id": 268,
+      "theme": "relationship_dynamics",
+      "prompt": "Do you feel like you have to apologize for having ADHD?"
+    },
+    {
+      "id": 269,
+      "theme": "relationship_dynamics",
+      "prompt": "What would make you feel more accepted in this relationship?"
+    },
+    {
+      "id": 270,
+      "theme": "relationship_dynamics",
+      "prompt": "When we're getting along well, what's different?"
+    },
+    {
+      "id": 271,
+      "theme": "relationship_dynamics",
+      "prompt": "Do you feel like you can be yourself with me?"
+    },
+    {
+      "id": 272,
+      "theme": "relationship_dynamics",
+      "prompt": "What's something I've done that made you feel really seen?"
+    },
+    {
+      "id": 273,
+      "theme": "relationship_dynamics",
+      "prompt": "Do you feel heard when you try to explain your ADHD experience?"
+    },
+    {
+      "id": 274,
+      "theme": "relationship_dynamics",
+      "prompt": "How do you want me to show up for you?"
+    },
+    {
+      "id": 275,
+      "theme": "relationship_dynamics",
+      "prompt": "When I'm patient with you, do you notice it?"
+    },
+    {
+      "id": 276,
+      "theme": "relationship_dynamics",
+      "prompt": "Do you ever feel like I'm comparing you to how you used to be before symptoms worsened?"
+    },
+    {
+      "id": 277,
+      "theme": "relationship_dynamics",
+      "prompt": "What does love look like to you right now?"
+    },
+    {
+      "id": 278,
+      "theme": "relationship_dynamics",
+      "prompt": "Are there things we used to do together that you miss?"
+    },
+    {
+      "id": 279,
+      "theme": "relationship_dynamics",
+      "prompt": "How can we rebuild trust around ADHD-related disappointments?"
+    },
+    {
+      "id": 280,
+      "theme": "relationship_dynamics",
+      "prompt": "What would feel more connected to you right now?"
+    },
+    {
+      "id": 281,
+      "theme": "relationship_dynamics",
+      "prompt": "Do you feel like I blame you for your ADHD?"
+    },
+    {
+      "id": 282,
+      "theme": "relationship_dynamics",
+      "prompt": "What's one thing that would improve your relationships right now?"
+    },
+    {
+      "id": 283,
+      "theme": "relationship_dynamics",
+      "prompt": "When you look ahead at your future, what matters most to you?"
+    },
+    {
+      "id": 284,
+      "theme": "relationship_dynamics",
+      "prompt": "How do you want to grow in your relationships?"
+    },
+    {
+      "id": 285,
+      "theme": "relationship_dynamics",
+      "prompt": "Do you feel like I'm on your team?"
+    },
+    {
+      "id": 286,
+      "theme": "creative_interests",
+      "prompt": "What drew you to the creative work you do? What was the original spark?"
+    },
+    {
+      "id": 287,
+      "theme": "creative_interests",
+      "prompt": "Do you find that creative work feels different than other kinds of work?"
+    },
+    {
+      "id": 288,
+      "theme": "creative_interests",
+      "prompt": "When you're working on something creative, what's your process like?"
+    },
+    {
+      "id": 289,
+      "theme": "creative_interests",
+      "prompt": "Do you ever get into hyperfocus when you're working on a creative project?"
+    },
+    {
+      "id": 290,
+      "theme": "creative_interests",
+      "prompt": "What would it take for you to do more creative work?"
+    },
+    {
+      "id": 291,
+      "theme": "creative_interests",
+      "prompt": "How does your ADHD affect your creative work, if at all?"
+    },
+    {
+      "id": 292,
+      "theme": "creative_interests",
+      "prompt": "What's something you've created that you're really proud of?"
+    },
+    {
+      "id": 293,
+      "theme": "creative_interests",
+      "prompt": "Do you get frustrated with yourself when creative work doesn't flow?"
+    },
+    {
+      "id": 294,
+      "theme": "creative_interests",
+      "prompt": "How long has it been since you've done significant creative work?"
+    },
+    {
+      "id": 295,
+      "theme": "creative_interests",
+      "prompt": "If you had more time and energy, what would you want to create?"
+    },
+    {
+      "id": 296,
+      "theme": "creative_interests",
+      "prompt": "Do you think about your creative work a lot, even when you're not doing it?"
+    },
+    {
+      "id": 297,
+      "theme": "creative_interests",
+      "prompt": "What would support you in doing more creative work?"
+    },
+    {
+      "id": 298,
+      "theme": "creative_interests",
+      "prompt": "Is there a difference between creative work you do for yourself versus for others?"
+    },
+    {
+      "id": 299,
+      "theme": "creative_interests",
+      "prompt": "How does creating something make you feel?"
+    },
+    {
+      "id": 300,
+      "theme": "creative_interests",
+      "prompt": "Do you feel like your ADHD has changed your relationship with creative work?"
+    },
+    {
+      "id": 301,
+      "theme": "attention_focus",
+      "prompt": "Do you find yourself obsessing over details in some contexts and missing them in others?"
+    },
+    {
+      "id": 302,
+      "theme": "attention_focus",
+      "prompt": "When you're supposed to be paying attention but you're not, do you feel guilty?"
+    },
+    {
+      "id": 303,
+      "theme": "attention_focus",
+      "prompt": "How much of your day do you feel like you're actually present?"
+    },
+    {
+      "id": 304,
+      "theme": "attention_focus",
+      "prompt": "Do you ever feel like your brain is on autopilot?"
+    },
+    {
+      "id": 305,
+      "theme": "executive_function",
+      "prompt": "When you have everything you need to complete a task, what usually stops you?"
+    },
+    {
+      "id": 306,
+      "theme": "executive_function",
+      "prompt": "How many unfinished projects do you have going right now?"
+    },
+    {
+      "id": 307,
+      "theme": "executive_function",
+      "prompt": "Do you feel like you have more ideas than you could ever complete?"
+    },
+    {
+      "id": 308,
+      "theme": "executive_function",
+      "prompt": "When you finally finish something, do you immediately start something new?"
+    },
+    {
+      "id": 309,
+      "theme": "time_perception",
+      "prompt": "Do you ever say yes to things and then immediately regret it because you underestimated time?"
+    },
+    {
+      "id": 310,
+      "theme": "time_perception",
+      "prompt": "How much do you think about the future?"
+    },
+    {
+      "id": 311,
+      "theme": "emotional_regulation",
+      "prompt": "Do you ever feel like your emotions are a strength?"
+    },
+    {
+      "id": 312,
+      "theme": "emotional_regulation",
+      "prompt": "When you're really happy about something, how does that show up?"
+    },
+    {
+      "id": 313,
+      "theme": "support_help",
+      "prompt": "What's one small thing I could do right now that would make your life easier?"
+    },
+    {
+      "id": 314,
+      "theme": "support_help",
+      "prompt": "Do you think medication has changed your ADHD experience significantly?"
+    },
+    {
+      "id": 315,
+      "theme": "support_help",
+      "prompt": "What strategies have actually worked for you in managing ADHD?"
+    },
+    {
+      "id": 316,
+      "theme": "strengths",
+      "prompt": "Do people ever seem surprised by something you can do well?"
+    },
+    {
+      "id": 317,
+      "theme": "strengths",
+      "prompt": "What would you attempt if you knew you couldn't fail?"
+    },
+    {
+      "id": 318,
+      "theme": "strengths",
+      "prompt": "How would your life be different if you believed in yourself more?"
+    },
+    {
+      "id": 319,
+      "theme": "perimenopause",
+      "prompt": "Are there specific days of the month when you feel worse than others?"
+    },
+    {
+      "id": 320,
+      "theme": "perimenopause",
+      "prompt": "How much of your forgetfulness gets worse before your period?"
+    },
+    {
+      "id": 321,
+      "theme": "family_relationships",
+      "prompt": "What's something someone close to you has taught you?"
+    },
+    {
+      "id": 322,
+      "theme": "family_relationships",
+      "prompt": "Do you think someone close to you understands your ADHD?"
+    },
+    {
+      "id": 323,
+      "theme": "memory_forgetfulness",
+      "prompt": "Do you keep a phone full of pictures or notes to help you remember things?"
+    },
+    {
+      "id": 324,
+      "theme": "memory_forgetfulness",
+      "prompt": "What's the most important thing you've forgotten?"
+    },
+    {
+      "id": 325,
+      "theme": "sleep_insomnia",
+      "prompt": "Does your mind race at night about things that happened or things you need to do?"
+    },
+    {
+      "id": 326,
+      "theme": "sleep_insomnia",
+      "prompt": "Do you ever wish you could just turn your brain off?"
+    },
+    {
+      "id": 327,
+      "theme": "relationship_dynamics",
+      "prompt": "What made you fall in love with me?"
+    },
+    {
+      "id": 328,
+      "theme": "relationship_dynamics",
+      "prompt": "Do you still see that person you fell in love with when you look at me?"
+    },
+    {
+      "id": 329,
+      "theme": "relationship_dynamics",
+      "prompt": "What's something you appreciate about me that I might not realize?"
+    },
+    {
+      "id": 330,
+      "theme": "creative_interests",
+      "prompt": "Do you have any creative projects you're secretly thinking about?"
+    },
+    {
+      "id": 331,
+      "theme": "creative_interests",
+      "prompt": "What kind of creative work feels the most fulfilling?"
+    },
+    {
+      "id": 332,
+      "theme": "attention_focus",
+      "prompt": "How do you feel about your attention challenges in general?"
+    },
+    {
+      "id": 333,
+      "theme": "executive_function",
+      "prompt": "Is there a task you've been putting off for months?"
+    },
+    {
+      "id": 334,
+      "theme": "executive_function",
+      "prompt": "What would it feel like to have your space and life organized the way you want it?"
+    },
+    {
+      "id": 335,
+      "theme": "time_perception",
+      "prompt": "Do you ever feel like you blink and a week has gone by?"
+    },
+    {
+      "id": 336,
+      "theme": "emotional_regulation",
+      "prompt": "What's the best thing someone has said to you when you were struggling?"
+    },
+    {
+      "id": 337,
+      "theme": "support_help",
+      "prompt": "What does it feel like to be loved even with your ADHD?"
+    },
+    {
+      "id": 338,
+      "theme": "strengths",
+      "prompt": "How do people describe you?"
+    },
+    {
+      "id": 339,
+      "theme": "perimenopause",
+      "prompt": "What would help you feel more like yourself right now?"
+    },
+    {
+      "id": 340,
+      "theme": "family_relationships",
+      "prompt": "What's a favorite memory with someone close to you?"
+    },
+    {
+      "id": 341,
+      "theme": "memory_forgetfulness",
+      "prompt": "Have you learned to be okay with forgetting things?"
+    },
+    {
+      "id": 342,
+      "theme": "sleep_insomnia",
+      "prompt": "What's the best sleep you've had recently?"
+    },
+    {
+      "id": 343,
+      "theme": "relationship_dynamics",
+      "prompt": "What does partnership mean to you?"
+    },
+    {
+      "id": 344,
+      "theme": "relationship_dynamics",
+      "prompt": "How do you want to be remembered?"
+    },
+    {
+      "id": 345,
+      "theme": "creative_interests",
+      "prompt": "What brings you joy?"
+    },
+    {
+      "id": 346,
+      "theme": "attention_focus",
+      "prompt": "What would perfect focus feel like to you?"
+    },
+    {
+      "id": 347,
+      "theme": "executive_function",
+      "prompt": "If you could hand off one task forever, what would it be?"
+    },
+    {
+      "id": 348,
+      "theme": "time_perception",
+      "prompt": "How much does time anxiety affect your life?"
+    },
+    {
+      "id": 349,
+      "theme": "emotional_regulation",
+      "prompt": "What calms you down when you're spiraling?"
+    },
+    {
+      "id": 350,
+      "theme": "support_help",
+      "prompt": "What does unconditional love look like to you?"
+    },
+    {
+      "id": 351,
+      "theme": "strengths",
+      "prompt": "What makes you feel most alive?"
+    },
+    {
+      "id": 352,
+      "theme": "perimenopause",
+      "prompt": "How are you taking care of yourself right now?"
+    },
+    {
+      "id": 353,
+      "theme": "family_relationships",
+      "prompt": "What's one lesson you want to pass on to someone close to you?"
+    },
+    {
+      "id": 354,
+      "theme": "memory_forgetfulness",
+      "prompt": "What's one thing you never forget?"
+    },
+    {
+      "id": 355,
+      "theme": "sleep_insomnia",
+      "prompt": "What would help you feel more rested?"
+    },
+    {
+      "id": 356,
+      "theme": "relationship_dynamics",
+      "prompt": "What do you need from me right now?"
+    },
+    {
+      "id": 357,
+      "theme": "creative_interests",
+      "prompt": "What's your creative dream?"
+    },
+    {
+      "id": 358,
+      "theme": "attention_focus",
+      "prompt": "When do you feel most in control of your attention?"
+    },
+    {
+      "id": 359,
+      "theme": "executive_function",
+      "prompt": "What's one system that's actually worked for you?"
+    },
+    {
+      "id": 360,
+      "theme": "time_perception",
+      "prompt": "How would your life change if time felt different?"
+    },
+    {
+      "id": 361,
+      "theme": "emotional_regulation",
+      "prompt": "What do you wish people understood about your emotions?"
+    },
+    {
+      "id": 362,
+      "theme": "support_help",
+      "prompt": "How can we keep growing together?"
+    },
+    {
+      "id": 363,
+      "theme": "strengths",
+      "prompt": "What's your superpower?"
+    },
+    {
+      "id": 364,
+      "theme": "perimenopause",
+      "prompt": "What's one kind thing you can do for yourself today?"
+    },
+    {
+      "id": 365,
+      "theme": "family_relationships",
+      "prompt": "What kind of person do you want to be in your relationships?"
+    }
+  ]
+}
