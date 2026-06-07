@@ -75,6 +75,49 @@
             height: 20px;
         }
 
+        .pull-refresh-indicator {
+            position: fixed;
+            top: 0;
+            left: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background-color: #fff;
+            box-shadow: 0 2px 8px rgba(28, 27, 31, 0.16);
+            color: #6750A4;
+            opacity: 0;
+            transform: translate(-50%, -60px);
+            pointer-events: none;
+            z-index: 100;
+        }
+
+        .pull-refresh-indicator.snap {
+            transition: transform 0.25s ease, opacity 0.2s ease;
+        }
+
+        .pull-refresh-indicator svg {
+            width: 20px;
+            height: 20px;
+            transition: transform 0.15s ease;
+        }
+
+        .pull-refresh-indicator.ready svg {
+            transform: scale(1.15);
+        }
+
+        .pull-refresh-indicator.spinning svg {
+            animation: pull-refresh-spin 0.7s linear infinite;
+        }
+
+        @keyframes pull-refresh-spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
         .theme-label {
             font-size: 0.6875rem;
             font-weight: 600;
@@ -136,6 +179,15 @@
     </style>
 </head>
 <body>
+    <div class="pull-refresh-indicator" id="pullRefreshIndicator" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
+            <path d="M3 3v5h5"/>
+            <path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16"/>
+            <path d="M16 16h5v5"/>
+        </svg>
+    </div>
+
     <div class="page">
         <header class="header">
             <h1>Loop</h1>
@@ -192,6 +244,88 @@
         }
 
         loadPrompts();
+
+        (function setupPullToRefresh() {
+            const indicator = document.getElementById('pullRefreshIndicator');
+            const threshold = 70;
+            const maxPull = 100;
+            const hiddenOffset = -60;
+            let startY = 0;
+            let currentPull = 0;
+            let tracking = false;
+            let refreshing = false;
+
+            function scrollTop() {
+                return window.scrollY || document.documentElement.scrollTop || 0;
+            }
+
+            function setPull(pull) {
+                currentPull = pull;
+                const offset = hiddenOffset + Math.min(pull, maxPull);
+                indicator.style.transform = `translate(-50%, ${offset}px)`;
+                indicator.style.opacity = String(Math.min(pull / threshold, 1));
+                indicator.classList.toggle('ready', pull >= threshold);
+            }
+
+            function reset() {
+                tracking = false;
+                currentPull = 0;
+                indicator.classList.add('snap');
+                indicator.classList.remove('ready');
+                indicator.style.transform = `translate(-50%, ${hiddenOffset}px)`;
+                indicator.style.opacity = '0';
+            }
+
+            document.addEventListener('touchstart', (e) => {
+                if (refreshing || scrollTop() > 0) {
+                    tracking = false;
+                    return;
+                }
+
+                startY = e.touches[0].clientY;
+                tracking = true;
+                indicator.classList.remove('snap');
+            }, { passive: true });
+
+            document.addEventListener('touchmove', (e) => {
+                if (!tracking || refreshing) return;
+
+                const delta = e.touches[0].clientY - startY;
+                if (delta <= 0 || scrollTop() > 0) {
+                    reset();
+                    return;
+                }
+
+                e.preventDefault();
+                setPull(delta * 0.5);
+            }, { passive: false });
+
+            document.addEventListener('touchend', () => {
+                if (!tracking || refreshing) return;
+                tracking = false;
+
+                if (currentPull >= threshold) {
+                    refreshing = true;
+                    indicator.classList.add('snap', 'spinning');
+                    setPull(threshold);
+
+                    setTimeout(() => {
+                        getRandomPrompt();
+                        setTimeout(() => {
+                            refreshing = false;
+                            indicator.classList.remove('spinning');
+                            reset();
+                        }, 350);
+                    }, 250);
+                } else {
+                    reset();
+                }
+            });
+
+            document.addEventListener('touchcancel', () => {
+                if (tracking && !refreshing) reset();
+            });
+        })();
     </script>
 </body>
 </html>
