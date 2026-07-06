@@ -9,8 +9,30 @@
     <meta name="apple-mobile-web-app-title" content="Loop">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wdth,wght@8..144,25..151,100..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
+        :root {
+            --background: oklch(0.9730 0.0133 286.1503);
+            --foreground: oklch(0.3015 0.0572 282.4176);
+            --muted-foreground: oklch(0.5426 0.0465 284.7435);
+            --border: oklch(0.9115 0.0216 285.9625);
+            --accent: oklch(0.9221 0.0373 262.1410);
+            --primary: oklch(0.5417 0.1790 288.0332);
+            --radius: 0.5rem;
+            --font-sans: 'Inter', sans-serif;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --background: oklch(0.1743 0.0227 283.7998);
+                --foreground: oklch(0.9185 0.0257 285.8834);
+                --muted-foreground: oklch(0.7166 0.0462 285.1741);
+                --border: oklch(0.3261 0.0597 282.5832);
+                --accent: oklch(0.3354 0.0828 280.9705);
+                --primary: oklch(0.7162 0.1597 290.3962);
+            }
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -18,10 +40,10 @@
         }
 
         body {
-            font-family: 'Roboto Flex', sans-serif;
-            background-color: #F3EEFF;
+            font-family: var(--font-sans);
+            background-color: var(--background);
             min-height: 100vh;
-            color: #1C1B1F;
+            color: var(--foreground);
             padding: 24px;
         }
 
@@ -40,9 +62,8 @@
 
         h1 {
             font-size: 1.125rem;
-            font-weight: 800;
-            font-variation-settings: 'wdth' 151, 'opsz' 18;
-            color: #6750A4;
+            font-weight: 700;
+            color: var(--primary);
             line-height: 1.2;
         }
 
@@ -54,20 +75,21 @@
             width: 40px;
             height: 40px;
             padding: 0;
-            border: none;
-            background: none;
-            color: #49454F;
+            border: 1px solid var(--border);
+            background: var(--background);
+            color: var(--foreground);
             cursor: pointer;
-            border-radius: 50%;
-            transition: color 0.2s ease;
+            border-radius: var(--radius);
+            transition: background-color 0.2s ease;
         }
 
         .refresh-btn:hover {
-            color: #6750A4;
+            background: var(--accent);
+            color: var(--primary);
         }
 
         .refresh-btn:active {
-            color: #1C1B1F;
+            background: var(--border);
         }
 
         .refresh-btn svg {
@@ -121,20 +143,18 @@
         .theme-label {
             font-size: 0.6875rem;
             font-weight: 600;
-            font-variation-settings: 'wdth' 100, 'opsz' 14;
             letter-spacing: 0.12em;
             text-transform: uppercase;
-            color: #984061;
+            color: var(--muted-foreground);
             margin-bottom: 12px;
             transition: opacity 0.15s ease;
         }
 
         .prompt-text {
             font-size: 2.75rem;
-            font-weight: 800;
-            font-variation-settings: 'wdth' 151, 'opsz' 72;
+            font-weight: 700;
             line-height: 1.05;
-            color: #21005D;
+            color: var(--foreground);
             letter-spacing: -0.02em;
             overflow-wrap: break-word;
             transition: opacity 0.15s ease;
