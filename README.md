@@ -11,21 +11,3 @@ Designed to make it easier to start meaningful conversations without pressure or
 ## Themes
 
 `attention & focus` · `executive function` · `time perception` · `emotional regulation` · `support & help` · `strengths` · `perimenopause` · `family & relationships` · `memory & forgetfulness` · `sleep & insomnia` · `relationship dynamics` · `creative interests`
-
-## Running locally
-
-```bash
-python3 -m http.server 8080
-```
-
-Then open `http://localhost:8080`.
-
-## Deploying
-
-Built for GitHub Pages. Push to `main`, then go to **Settings → Pages** and set the source to the `main` branch.
-
-Live at: `https://yourusername.github.io/loop/`
-
-## License
-
-MIT
