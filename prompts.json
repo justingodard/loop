@@ -877,78 +877,78 @@
     },
     {
       "id": 176,
-      "theme": "perimenopause",
+      "theme": "hormonal_shifts",
       "prompt": "Have your symptoms felt like they've gotten worse recently? What do you think is driving that?"
     },
     {
       "id": 177,
-      "theme": "perimenopause",
+      "theme": "hormonal_shifts",
       "prompt": "Have you noticed specific times in your cycle when your ADHD is better or worse?"
     },
     {
       "id": 178,
-      "theme": "perimenopause",
+      "theme": "hormonal_shifts",
       "prompt": "How has your sleep changed with perimenopause? Does that make everything harder?"
     },
     {
       "id": 179,
-      "theme": "perimenopause",
+      "theme": "hormonal_shifts",
       "prompt": "Do you feel like hormones are making your executive function worse, or is it just more noticeable now?"
     },
     {
       "id": 180,
-      "theme": "perimenopause",
+      "theme": "hormonal_shifts",
       "prompt": "Has anything actually gotten easier, or is it mostly harder now?"
     },
     {
       "id": 181,
-      "theme": "perimenopause",
+      "theme": "hormonal_shifts",
       "prompt": "When you have a really bad ADHD day, is perimenopause usually playing a role?"
     },
     {
       "id": 182,
-      "theme": "perimenopause",
+      "theme": "hormonal_shifts",
       "prompt": "How much of what you're experiencing do you think is perimenopause versus just ADHD?"
     },
     {
       "id": 183,
-      "theme": "perimenopause",
+      "theme": "hormonal_shifts",
       "prompt": "What's the hardest part about dealing with both ADHD and perimenopause at the same time?"
     },
     {
       "id": 184,
-      "theme": "perimenopause",
+      "theme": "hormonal_shifts",
       "prompt": "Do you feel like no one told you that ADHD would get worse with hormonal changes?"
     },
     {
       "id": 185,
-      "theme": "perimenopause",
-      "prompt": "How is your mood related to where you are in your cycle?"
+      "theme": "hormonal_shifts",
+      "prompt": "Do you notice your mood shifting in a pattern over time?"
     },
     {
       "id": 186,
-      "theme": "perimenopause",
+      "theme": "hormonal_shifts",
       "prompt": "Have you noticed changes in what triggers your frustration or overwhelm?"
     },
     {
       "id": 187,
-      "theme": "perimenopause",
+      "theme": "hormonal_shifts",
       "prompt": "Does your energy level shift throughout the month?"
     },
     {
       "id": 188,
-      "theme": "perimenopause",
+      "theme": "hormonal_shifts",
       "prompt": "What help or support would make perimenopause + ADHD easier to manage?"
     },
     {
       "id": 189,
-      "theme": "perimenopause",
+      "theme": "hormonal_shifts",
       "prompt": "Do you ever feel like your body is working against you right now?"
     },
     {
       "id": 190,
-      "theme": "perimenopause",
-      "prompt": "How much do you think hormonal changes have contributed to tension in your close relationships?"
+      "theme": "hormonal_shifts",
+      "prompt": "How much do you think body changes have contributed to tension in your close relationships?"
     },
     {
       "id": 191,
@@ -993,7 +993,7 @@
     {
       "id": 199,
       "theme": "family_relationships",
-      "prompt": "Do you ever feel guilty about potentially passing down ADHD traits to someone close to you?"
+      "prompt": "Do you ever think about how ADHD traits show up across a family?"
     },
     {
       "id": 200,
@@ -1318,7 +1318,7 @@
     {
       "id": 264,
       "theme": "relationship_dynamics",
-      "prompt": "What does a conflict between us usually look like?"
+      "prompt": "What does conflict tend to look like when ADHD is part of it?"
     },
     {
       "id": 265,
@@ -1378,7 +1378,7 @@
     {
       "id": 276,
       "theme": "relationship_dynamics",
-      "prompt": "Do you ever feel like I'm comparing you to how you used to be before symptoms worsened?"
+      "prompt": "Do you ever feel compared to who you used to be?"
     },
     {
       "id": 277,
@@ -1393,7 +1393,7 @@
     {
       "id": 279,
       "theme": "relationship_dynamics",
-      "prompt": "How can we rebuild trust around ADHD-related disappointments?"
+      "prompt": "How can we build more trust around ADHD-related challenges?"
     },
     {
       "id": 280,
@@ -1403,7 +1403,7 @@
     {
       "id": 281,
       "theme": "relationship_dynamics",
-      "prompt": "Do you feel like I blame you for your ADHD?"
+      "prompt": "Do you feel like your ADHD gets blamed for things that aren't really about ADHD?"
     },
     {
       "id": 282,
@@ -1592,13 +1592,13 @@
     },
     {
       "id": 319,
-      "theme": "perimenopause",
-      "prompt": "Are there specific days of the month when you feel worse than others?"
+      "theme": "hormonal_shifts",
+      "prompt": "Do certain stretches of the month feel harder than others?"
     },
     {
       "id": 320,
-      "theme": "perimenopause",
-      "prompt": "How much of your forgetfulness gets worse before your period?"
+      "theme": "hormonal_shifts",
+      "prompt": "Are there times in the month when forgetfulness feels worse?"
     },
     {
       "id": 321,
@@ -1692,7 +1692,7 @@
     },
     {
       "id": 339,
-      "theme": "perimenopause",
+      "theme": "hormonal_shifts",
       "prompt": "What would help you feel more like yourself right now?"
     },
     {
@@ -1757,7 +1757,7 @@
     },
     {
       "id": 352,
-      "theme": "perimenopause",
+      "theme": "hormonal_shifts",
       "prompt": "How are you taking care of yourself right now?"
     },
     {
@@ -1817,7 +1817,7 @@
     },
     {
       "id": 364,
-      "theme": "perimenopause",
+      "theme": "hormonal_shifts",
       "prompt": "What's one kind thing you can do for yourself today?"
     },
     {

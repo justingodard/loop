@@ -10,4 +10,4 @@ Designed to make it easier to start meaningful conversations without pressure or
 
 ## Themes
 
-`attention & focus` · `executive function` · `time perception` · `emotional regulation` · `support & help` · `strengths` · `perimenopause` · `family & relationships` · `memory & forgetfulness` · `sleep & insomnia` · `relationship dynamics` · `creative interests`
+`attention & focus` · `executive function` · `time perception` · `emotional regulation` · `support & help` · `strengths` · `hormonal shifts` · `family & relationships` · `memory & forgetfulness` · `sleep & insomnia` · `relationship dynamics` · `creative interests`
